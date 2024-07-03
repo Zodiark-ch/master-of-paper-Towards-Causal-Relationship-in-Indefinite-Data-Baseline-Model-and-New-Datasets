@@ -18,6 +18,12 @@ sklearn
 wandb
 ```
 
+Download: 
+```
+pretrained model for representation extraction of causalogue: https://huggingface.co/docs/transformers/model_doc/roberta
+pretrained representation of causaction: https://zenodo.org/records/3625992#.Xiv9jGhKhPY
+```
+
 In this repo， you can use follows to run the baseline model with two new datasets：  
 ```
 python main.py --config

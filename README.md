@@ -18,8 +18,7 @@ sklearn
 wandb
 ```
 
-Download: 
-Causalogue:
+Download for Causalogue:
 ```
 pretrained model for representation extraction of causalogue: https://huggingface.co/docs/transformers/model_doc/roberta
 ```
@@ -28,7 +27,7 @@ you can also use the online from huggingface:
 from transformers import pipeline
 unmasker = pipeline('fill-mask', model='roberta-base'))
 ```
-Causaction:
+Download for Causaction:
 ```
 pretrained representation of causaction: https://zenodo.org/records/3625992#.Xiv9jGhKhPY
 storage path:data/causaction/pretrain_representation

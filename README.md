@@ -23,6 +23,10 @@ To load these two new datasets, you can:
 ```
 from data_loader import *
 
+train_loader=build_train_data(datasetname=args.dataset,fold_id=fold_id,batch_size=wandb.config.batch_size,data_type='train',args=args,config=dataset_config)
+valid_loader = build_inference_data(datasetname=args.dataset,fold_id=fold_id,batch_size=wandb.config.batch_size,data_type='valid',args=args,config=dataset_config)
+test_loader = build_inference_data(datasetname=args.dataset,fold_id=fold_id,batch_size=wandb.config.batch_size,data_type='test',args=args,config=dataset_config)
+
 ```
 
 

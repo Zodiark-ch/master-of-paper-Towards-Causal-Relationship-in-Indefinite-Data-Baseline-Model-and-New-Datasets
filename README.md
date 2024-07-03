@@ -11,7 +11,20 @@ A video dataset with 1118 video samples, labeled with full causal relationships 
 For the representation, we recommend the representation from I3D (https://zenodo.org/records/3625992#.Xiv9jGhKhPY) 
 
 In this repo， you can use follows to run the baseline model with two new datasets：  
-      python main.py
+```
+python main.py --config
+```
+To access the new datasets, you can look into: 
+```
+\data\causaction\breakfast2.json
+\data\causalogue\all_data_small.json
+```
+To load these two new datasets, you can: 
+```
+from data_loader import *
+
+```
+
 
 # Reference 
 @misc{chen2023causal,  

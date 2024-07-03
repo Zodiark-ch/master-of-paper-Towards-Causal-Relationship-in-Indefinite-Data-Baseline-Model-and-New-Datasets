@@ -67,7 +67,6 @@ def get_logger(filename, verbosity=1, name=None):
     fh.setFormatter(formatter)
     logger.addHandler(fh)
 
-    #同时输出到屏幕
     # sh = logging.StreamHandler()
     # sh.setFormatter(formatter)
     # logger.addHandler(sh)

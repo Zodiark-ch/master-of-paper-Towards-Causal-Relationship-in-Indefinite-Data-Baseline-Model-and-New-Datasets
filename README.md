@@ -26,7 +26,7 @@ pretrained representation of causaction: https://zenodo.org/records/3625992#.Xiv
 
 In this repo， you can use follows to run the baseline model with two new datasets：  
 ```
-python main.py --config
+python main.py --datasetname [causalogue/causaction]
 ```
 To access the new datasets, you can look into: 
 ```

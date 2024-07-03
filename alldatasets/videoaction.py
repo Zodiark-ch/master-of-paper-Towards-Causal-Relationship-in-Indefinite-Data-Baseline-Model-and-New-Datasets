@@ -123,7 +123,7 @@ class VideoDataset(Dataset):
         batch_cls=torch.zeros(batch,max_segment_len,300,2048).cuda()
         for filename in range(len(file)):
             for file_name in range(len(file[filename])):
-                cls=np.load('/home/data/dddd/data4/%s'%(file[filename][file_name]))
+                cls=np.load('/data/causaction/pretrain_representation/%s'%(file[filename][file_name]))
                 batch_cls[filename][file_name]=torch.from_numpy(cls)
         
         return batch_ids,batch_doc_len,batch_label,batch_label_mask,batch_cls,batch_seg_id,batch_action,batch_adj_mask

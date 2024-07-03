@@ -10,6 +10,14 @@ Causaction:
 A video dataset with 1118 video samples, labeled with full causal relationships between two segments.   
 For the representation, we recommend the representation from I3D (https://zenodo.org/records/3625992#.Xiv9jGhKhPY) 
 
+Requirements:
+```
+torch
+transformer
+sklearn
+wandb
+```
+
 In this repo， you can use follows to run the baseline model with two new datasets：  
 ```
 python main.py --config
